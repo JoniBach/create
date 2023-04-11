@@ -1,6 +1,6 @@
 {
   "name": "jb-create",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "keywords": [
     "react"
   ],
@@ -18,7 +18,9 @@
   },
   "files": [
     "index.js",
-    "createSvelteApp.js"
+    "createSvelteApp.js",
+    "/bin",
+    "node"
   ],
   "bin": {
     "jb-create": "./index.js"
@@ -27,7 +29,6 @@
     "test": "cross-env FORCE_COLOR=true jest"
   },
   "dependencies": {
-    "child_process": "^1.0.2",
-    "firebase": "^9.19.1"
+    "child_process": "^1.0.2"
   }
 }
