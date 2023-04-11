@@ -1,0 +1,33 @@
+{
+  "name": "jb-create",
+  "version": "5.1.0",
+  "keywords": [
+    "react"
+  ],
+  "description": "Create apps with no build configuration.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoniBach/create.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/JoniBach/create/issues"
+  },
+  "files": [
+    "index.js",
+    "createSvelteApp.js"
+  ],
+  "bin": {
+    "jb-create": "./index.js"
+  },
+  "scripts": {
+    "test": "cross-env FORCE_COLOR=true jest"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+
+}

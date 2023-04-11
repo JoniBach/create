@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create a svelte project
-sh generate-svelte.sh
+sh -x ./bin/svelte/generate-svelte.sh
 
 # Create the firebase project
 sh generate-firebase.sh
