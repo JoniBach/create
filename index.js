@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const currentNodeVersion = process.versions.node;
 const semver = currentNodeVersion.split('.');
 const major = semver[0];

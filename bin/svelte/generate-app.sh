@@ -1,16 +1,21 @@
 #!/bin/bash
 
 # Create a svelte project
-sh -x ./bin/svelte/generate-svelte.sh
+echo "Creating a svelte project"
+sh ./bin/svelte/generate-svelte.sh
 
 # Create the firebase project
-sh generate-firebase.sh
+echo "Creating the firebase project"
+sh ./bin/svelte/generate-firebase.sh
 
 # Create the routes
-sh generate-routes.sh
+echo "Creating the routes"
+sh ./bin/svelte/generate-routes.sh
 
 # Create the user login flow
-sh generate-user-page.sh
+echo "Creating the user login flow"
+sh ./bin/svelte/generate-user-page.sh
 
 # Complete the project
-sh generate-complete.sh
+echo "Completing the project"
+sh ./bin/svelte/generate-complete.sh
