@@ -1,6 +1,6 @@
 {
   "name": "jb-create",
-  "version": "1.1.5",
+  "version": "1.1.7",
   "keywords": [
     "react"
   ],
@@ -22,11 +22,14 @@
     "/bin",
     "node"
   ],
+
   "bin": {
     "jb-create": "./index.js"
   },
   "scripts": {
-    "test": "cross-env FORCE_COLOR=true jest"
+    "test": "cross-env FORCE_COLOR=true jest",
+    "postinstall": "chmod +x ./bin/svelte/*.sh"
+
   },
   "dependencies": {
     "child_process": "^1.0.2"
