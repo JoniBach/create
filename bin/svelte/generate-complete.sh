@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Create a svelte project
-npm run dev -- --open
+# npm run dev -- --open
